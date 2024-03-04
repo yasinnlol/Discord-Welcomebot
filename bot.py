@@ -15,7 +15,7 @@ async def on_member_join(member):
     welcome_message = f"Welcome {member.mention} to the server."
 
     embed = discord.Embed(
-        title="Welcome",
+        title="Welcomer",
         description=welcome_message,
         color=discord.Colour.green()
     )
